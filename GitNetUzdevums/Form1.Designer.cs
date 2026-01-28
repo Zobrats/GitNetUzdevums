@@ -83,7 +83,7 @@
             this.GroupBoxAGoldbergs.Controls.Add(this.ButtonAGoldbergs);
             this.GroupBoxAGoldbergs.Location = new System.Drawing.Point(12, 118);
             this.GroupBoxAGoldbergs.Name = "GroupBoxAGoldbergs";
-            this.GroupBoxAGoldbergs.Size = new System.Drawing.Size(200, 73);
+            this.GroupBoxAGoldbergs.Size = new System.Drawing.Size(200, 83);
             this.GroupBoxAGoldbergs.TabIndex = 4;
             this.GroupBoxAGoldbergs.TabStop = false;
             this.GroupBoxAGoldbergs.Text = "Armands Goldbergs";
