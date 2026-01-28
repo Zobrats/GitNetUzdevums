@@ -32,8 +32,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.GroupBoxAGoldbergs = new System.Windows.Forms.GroupBox();
+            this.ButtonAGoldbergs = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.GroupBoxAGoldbergs.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -75,17 +78,40 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Andrejs Liepiņš";
             // 
+            // GroupBoxAGoldbergs
+            // 
+            this.GroupBoxAGoldbergs.Controls.Add(this.ButtonAGoldbergs);
+            this.GroupBoxAGoldbergs.Location = new System.Drawing.Point(12, 118);
+            this.GroupBoxAGoldbergs.Name = "GroupBoxAGoldbergs";
+            this.GroupBoxAGoldbergs.Size = new System.Drawing.Size(200, 73);
+            this.GroupBoxAGoldbergs.TabIndex = 4;
+            this.GroupBoxAGoldbergs.TabStop = false;
+            this.GroupBoxAGoldbergs.Text = "Armands Goldbergs";
+            this.GroupBoxAGoldbergs.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // ButtonAGoldbergs
+            // 
+            this.ButtonAGoldbergs.Location = new System.Drawing.Point(6, 35);
+            this.ButtonAGoldbergs.Name = "ButtonAGoldbergs";
+            this.ButtonAGoldbergs.Size = new System.Drawing.Size(75, 23);
+            this.ButtonAGoldbergs.TabIndex = 0;
+            this.ButtonAGoldbergs.Text = "y=1/x";
+            this.ButtonAGoldbergs.UseVisualStyleBackColor = true;
+            this.ButtonAGoldbergs.Click += new System.EventHandler(this.ButtonAGoldbergs_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 415);
+            this.Controls.Add(this.GroupBoxAGoldbergs);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.GroupBoxAGoldbergs.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -96,6 +122,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox GroupBoxAGoldbergs;
+        private System.Windows.Forms.Button ButtonAGoldbergs;
     }
 }
 
